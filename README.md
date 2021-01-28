@@ -10,7 +10,7 @@ Choix techniques : HTML/CSS et PHP pour les languages utilisés.
 		PHPmyAdmin pour la gestion de la base de donnée, 
 		AlwaysData pour l'hébergement du site et de la base de donnée, nous avons choisis alwaysData pour sa fiabilité et sa gratuité.
 
-Configuration logiciel minimal : Accès à Internet avec n'importe quel navigateur
+Configuration logiciel minimal : Accès à Internet avec n'importe quel navigateur\n
 Identifiants de connexion : 
 Administration : 
 	id : 15
