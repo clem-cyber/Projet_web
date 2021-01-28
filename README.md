@@ -25,16 +25,22 @@ id : 15
 password : clement
 
 Test : 
-	id : 44 	
-	password : azerty
+	
+id : 44 	
+
+password : azerty
 
 PHPmyAdmin : 
-	nom utilisateur : 225207
-	password : #clementeddy13
+
+nom utilisateur : 225207
+
+password : #clementeddy13
 			
 Alwaysdata : 
-	identifiant : clement.delfino@gmail.com	
-	password : #clementeddy13
+
+identifiant : clement.delfino@gmail.com	
+
+password : #clementeddy13
 
 GitHub : github.com/clem-cyber/Projet_web	
 
