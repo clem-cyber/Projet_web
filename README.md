@@ -15,10 +15,14 @@ Choix techniques : HTML/CSS et PHP pour les languages utilisés.
 		AlwaysData pour l'hébergement du site et de la base de donnée, nous avons choisis alwaysData pour sa fiabilité et sa gratuité.
 
 Configuration logiciel minimal : Accès à Internet avec n'importe quel navigateur
-Identifiants de connexion : 
-Administration : 
-	id : 15
-	password : clement
+
+Identifiants de connexion :
+
+Administration :
+
+id : 15
+	
+password : clement
 
 Test : 
 	id : 44 	
