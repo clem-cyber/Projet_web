@@ -12,7 +12,8 @@ Choix techniques : HTML/CSS et PHP pour les languages utilisés.
 		AlwaysData pour l'hébergement du site et de la base de donnée, nous avons choisis alwaysData pour sa fiabilité 
 															et sa gratuité.
 Configuration logiciel minimal : Accès à Internet avec n'importe quel navigateur
-Identifiants de connexion : Administration : id : 15
+Identifiants de connexion : 
+			    Administration : id : 15
 					     password : azerty
 
 			    Test : id : 21 	
@@ -24,7 +25,7 @@ Identifiants de connexion : Administration : id : 15
 			    Alwaysdata : clement.delfino@gmail.com	
 					     password : #clementeddy13
 
-			    GitHub : !!!! A faire !!!!		
+			    GitHub : 	
 
 
 Sécurité des mots de passe : Nous avons choisi d'utiliser la fonction de hachage MD5 pour hacher nos mots de passe et ainsi ne pas les stocker en clair. Nous avons utilisé MD5 ca cette fonction est déjà prédéfini en PHP.
