@@ -1,0 +1,333 @@
+@font-face
+{
+	font-family: 'dayrom';
+	src: url('dayrom.eot') format('eot');
+	src: url('dayrom.woff') format('woff');
+}
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	font-family: 'dayrom';
+}
+
+/*Page de création d'un compte*/
+#creation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#create_Acc
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 12rem;
+	width: 50rem;
+	background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    padding: 30px;
+    margin-top: 12rem;
+    border-radius: 10px;
+}
+#create_Acc fieldset
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+
+/*Bannière utilisée sur la page de création et de connexion*/
+#banniere_connexion
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #5e9fff;
+    box-shadow: 0px 9px 0px grey;
+    margin-bottom: 30px;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 2000;
+}
+#banniere_connexion a
+{
+	width: 85%;
+	margin: auto;
+	margin-right: 4.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 0.4rem;
+	color: white;
+}
+#banniere_connexion a:hover
+{
+	color: grey;
+	font-weight: bold;
+}
+
+/*Page de connexion*/
+#connexion
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    width: 25rem;
+    margin: auto;
+    padding: 30px;
+    margin-top: 12rem;
+    border-radius: 10px;
+}
+#connexion input
+{
+	width: 100%;
+}
+#connexion nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+}
+#connexion a
+{
+	text-decoration: none;
+	color: black;
+}
+#connexion a:hover
+{
+	font-weight: bold;
+}
+
+/* Bannière utilisée dans la plupart des pages*/
+#banniere
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #5e9fff;
+    box-shadow: 0px 9px 0px grey;
+    margin-bottom: 30px;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 2000;
+}
+#liens a, #banniere h1 a
+{
+	text-decoration: none;
+	color: white;
+}
+#liens p
+{
+	text-decoration: none;
+	color: grey;
+}
+#banniere h1
+{
+	margin-left: 100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+#liens
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+#liens form
+{
+	margin-bottom: 0.5rem;
+	padding-right: 2rem;
+}
+#banniere a, #banniere p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 85%;
+	margin: auto;
+	margin-right: 4.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 0.4rem;
+}
+#liens a:hover
+{
+	padding: 0px;
+	border-bottom: 0.2rem solid grey;
+	padding-bottom: 0.7rem;
+}
+#banniere a:hover
+{
+	color: grey;
+	font-weight: bold;
+}
+
+
+/*Page d'accueil*/
+#posts_index
+{
+	display: flex;
+    flex-direction: column;
+    background-color: #fff0f0;
+    box-shadow: 0px 1px 3px 1px black;
+    width: 70%;
+    margin: auto;
+    margin-top: 7.5rem;
+    padding: 2rem;
+}
+#membres
+{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding-left: 35%;
+    width: 30%;
+    padding-right: 35%;
+    padding-top :8%;
+    align-items: center;
+}
+.reaction
+{
+	display: flex;
+	align-self: flex-end;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.reaction a
+{
+	text-decoration: none;
+	color: black;
+	margin-right: 1rem;
+	background-color: #fff0fa;
+	box-shadow: 0px 1px 3px 1px #EEEEEE;
+}
+.reaction a:hover
+{
+	font-weight: bold;	
+}
+#nbPage
+{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 2rem;
+}
+#nbPage a
+{
+	text-decoration: none;
+	color: black;
+	margin-right: 1rem;
+}
+#nbPage a:hover
+{
+	font-weight: bold;
+}
+
+#posts
+{
+    width: 70rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff0f0;
+    padding: 30px;
+    margin-top: 7.5rem;
+    box-shadow: 0px 1px 3px 1px #EEEEEE;
+    border-radius: 10px;
+}
+#posts article
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#post
+{
+    width:45rem;
+}
+#post h3
+{
+    color:black;
+    font-size:0.9em;
+    margin-bottom:0px;
+    text-align: center;
+}
+.entier
+{
+	box-shadow: 0px 1px 3px 1px grey;
+	border-radius: 10px;
+	padding: 0.7rem;
+	background-color: white;
+	margin-bottom: 3rem;
+
+}
+
+.contenu
+{
+    margin-bottom: 0.1rem;
+}
+.lien_post
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2rem;
+	padding-top: 0.5rem;
+	border-top: 0.1rem solid grey; 
+}
+#post a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#post a:hover
+{
+	font-weight: bold;
+}
+
+#posts aside
+{
+	width: 15rem;
+	height: 10rem;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 3rem;
+	border: 1px grey solid;
+	background-color: grey;
+	color: white;
+	padding: 1rem;
+}
+
+#posts aside h3
+{
+	border-bottom: 0.1rem solid black;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+}
